@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Color Changer Settings</title>
+    <link rel="stylesheet" href="options.css">
+</head>
+
+<body>
+    <h1>Color Changer - Default Settings</h1>
+
+    <div class="input-group">
+        <label for="domain" class="label">Enter Domain Name</label>
+        <input type="text" id="domain" placeholder="example.com" class="domain-input" required>
+        <span id="validation-icon" class="validation-icon"></span>
+    </div>
+
+    <div class="color-group">
+        <label for="default-bg">Default Background Color:</label>
+        <input type="color" id="default-bg" name="default-bg">
+    </div>
+
+    <div class="color-group">
+        <label for="default-text">Default Text Color:</label>
+        <input type="color" id="default-text" name="default-text">
+    </div>
+
+    <div class="buttons">
+        <button id="save-btn">Save Settings</button>
+        <button id="reset-btn">Delete</button>
+    </div>
+
+    <div id="status"></div>
+
+    <div id="history">
+        <h2>Saved Domains (bg / txt):</h2>
+        <!-- History items will be dynamically injected here -->
+    </div>
+
+    <script src="options.js"></script>
+</body>
+
+</html>
