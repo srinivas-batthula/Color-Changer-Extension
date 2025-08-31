@@ -12,7 +12,7 @@ A Simple Chrome/Edge extension developed using HTML, CSS, JS that lets you custo
 ## 📦 How to Install Manually (Chrome or Edge)
 
 1. Download the latest release ZIP:
-   👉 [Releases](https://github.com/srinivas-batthula/Color-Changer-Extension/releases)
+   👉 [Releases](https://github.com/srinivas-batthula/Color-Changer-Extension/releases/download/v1.0/extension1.zip.zip)
 
 2. Extract the ZIP to a folder
 
@@ -40,5 +40,11 @@ A Simple Chrome/Edge extension developed using HTML, CSS, JS that lets you custo
 ## 🧠 Developer?
 
 Fork this repo, customize it, and build your own flavor.
+
+
+## Author
+
+- **Srinivas Batthula [@srinivas-batthula](https://github.com/srinivas-batthula)**
+
 
 ---
